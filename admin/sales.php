@@ -87,9 +87,9 @@
         </div>
       </div>
     </section>
-     
+
   </div>
-  	<?php include 'includes/footer.php'; ?>
+
     <?php include '../includes/profile_modal.php'; ?>
 
 </div>
@@ -136,7 +136,7 @@ $(function(){
       $('#daterange-btn span').html(start.format('MMMM D, YYYY') + ' - ' + end.format('MMMM D, YYYY'))
     }
   )
-  
+
 });
 </script>
 <script>

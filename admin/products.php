@@ -70,7 +70,7 @@
                         $stmt->execute();
 
                         foreach($stmt as $crow){
-                          $selected = ($crow['id'] == $catid) ? 'selected' : ''; 
+                          $selected = ($crow['id'] == $catid) ? 'selected' : '';
                           echo "
                             <option value='".$crow['id']."' ".$selected.">".$crow['name']."</option>
                           ";
@@ -135,9 +135,9 @@
         </div>
       </div>
     </section>
-     
+
   </div>
-  	<?php include 'includes/footer.php'; ?>
+
     <?php include 'includes/products_modal.php'; ?>
     <?php include 'includes/products_modal2.php'; ?>
 

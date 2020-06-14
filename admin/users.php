@@ -105,9 +105,9 @@
         </div>
       </div>
     </section>
-     
+
   </div>
-  	<?php include 'includes/footer.php'; ?>
+
     <?php include 'includes/users_modal.php'; ?>
 
 </div>

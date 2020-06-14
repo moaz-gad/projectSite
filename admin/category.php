@@ -88,9 +88,9 @@
         </div>
       </div>
     </section>
-     
+
   </div>
-  	<?php include 'includes/footer.php'; ?>
+
     <?php include 'includes/category_modal.php'; ?>
 
 </div>
