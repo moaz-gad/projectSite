@@ -55,13 +55,13 @@
           <hr>
       		<div class="row">
     			<div class="col-xs-4">
-          			<button type="submit" class="btn btn-primary btn-block btn-flat" name="signup"><i class="fa fa-pencil"></i> Sign Up</button>
+          			<button type="submit" class="zorar" name="signup"><i class="fa fa-pencil"></i> Sign Up</button>
         		</div>
       		</div>
     	</form>
       <br>
-      <a href="login.php">I already have a membership</a><br>
-      <a href="index.php"><i class="fa fa-home"></i> Home</a>
+      <a class="mess1" href="login.php">I already have a membership</a><br><br>
+      <a class="messhome" href="index.php"><i class="fa fa-home"></i> Home</a>
   	</div>
 </div>
 

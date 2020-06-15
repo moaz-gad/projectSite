@@ -153,7 +153,7 @@
         <!-- ./col -->
       </div>
       <!-- /.row -->
-deleted
+
 
       </section>
       <!-- right col -->

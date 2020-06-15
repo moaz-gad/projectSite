@@ -8,20 +8,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>thiet | 4th</title>
-
+    <link rel="stylesheet" href="dist/css/style.css" type="text/css">
     <!-- Bootstrap 4 -->
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
 
     <!-- Font Awesome -->
   	<link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
-  	<!-- Theme style -->
-    <link rel="stylesheet" href="dist/css/AdminLTE.css">
-
     <link rel="stylesheet" href="dist/css/nice-select.css" type="text/css">
     <link rel="stylesheet" href="dist/css/owl.carousel.min.css" type="text/css">
     <link rel="stylesheet" href="dist/css/magnific-popup.css" type="text/css">
     <link rel="stylesheet" href="dist/css/slicknav.min.css" type="text/css">
-    <link rel="stylesheet" href="dist/css/style.css" type="text/css">
+
 
     <!-- Paypal Express -->
     <script src="https://www.paypalobjects.com/api/checkout.js"></script>
