@@ -2,14 +2,8 @@
   <nav class="navbar navbar-expand-lg">
         <div class="container">
              <a class="navbar-brand" href="index.php">
-                 <span>Elite</span> <span>Corp</span>
+                 <span>thi</span> <span>et</span>
              </a>
-             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-             <span class="navbar-toggler-icon"></span>
-             </button>
-
-      <!-- Collect the nav links, forms, and other content for toggling -->
-
       <div class="collapse navbar-collapse" id="main-nav">
                  <ul class="navbar-nav ml-auto">
                      <li class="nav-item active">
@@ -53,7 +47,7 @@
           <div class="input-group">
               <input type="text" class="form-control" id="navbar-search-input" name="keyword" placeholder="Search for Product" required>
               <span class="input-group-btn" id="searchBtn" style="display:none;">
-                  <button type="submit" class="btn btn-default btn-flat"><i class="fa fa-search"></i> </button>
+                  <!-- <button type="submit" class="btn btn-default btn-flat"><i class="fa fa-search"></i> </button> -->
               </span>
           </div>
         </form>

@@ -26,11 +26,11 @@
       }
     ?>
   	<div class="login-box-body">
-    	<p class="login-box-msg">Sign in to start your session</p>
+    	<h2 class="login-box-msg">log in</h2>
 
     	<form action="verify.php" method="POST">
       		<div class="form-group has-feedback">
-        		<input type="email" class="form-control" name="email" placeholder="Email" required>
+        		<input type="email" class="form-control" name="email"  autocomplete="off" placeholder="Email" required>
         		<span class="glyphicon glyphicon-envelope form-control-feedback"></span>
       		</div>
           <div class="form-group has-feedback">
@@ -44,8 +44,8 @@
       		</div>
     	</form>
       <br>
-      <a class="mess1" href="password_forgot.php">I forgot my password</a><br><br>
-      <a class="mess1" href="signup.php" class="text-center">Register a new membership</a><br><br>
+      <a class="mess1" href="password_forgot.php"><span class="forg">I forgot my password</span></a><br><br>
+    <P class="acc">don't have account?<a class="mess1" href="signup.php" class="text-center"><span>sign up</span></a></P><br><br>
       <a class="messhome" href="index.php"><i class="fa fa-home"></i> Home</a>
   	</div>
 </div>

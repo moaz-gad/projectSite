@@ -9,6 +9,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>thiet | 4th</title>
     <link rel="stylesheet" href="dist/css/style.css" type="text/css">
+    <!-- <link rel="stylesheet" href="dist/css/AdminLTE.css" type="text/css"> -->
+    <!-- <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/old/bootstrap.min.css"> -->
     <!-- Bootstrap 4 -->
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
 

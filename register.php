@@ -1,6 +1,5 @@
 <?php
-	use PHPMailer\PHPMailer\PHPMailer;
-	use PHPMailer\PHPMailer\Exception;
+
 
 	include 'includes/session.php';
 
@@ -50,48 +49,19 @@
 						<p>Email: ".$email."</p>
 						<p>Password: ".$_POST['password']."</p>
 						<p>Please click the link below to activate your account.</p>
-						<a href='http://localhost/site/activate.php?code=".$code."&user=".$userid."'>Activate Account</a>
+
 					";
 
 					//Load phpmailer
 		    		require 'vendor/autoload.php';
 
-		    		$mail = new PHPMailer(true);
-				    try {
-				        //Server settings
-				        $mail->isSMTP();
-				        $mail->Host = 'smtp.gmail.com';
-				        $mail->SMTPAuth = true;
-				        $mail->Username = 'testsourcecodester@gmail.com';
-				        $mail->Password = 'mysourcepass';
-				        $mail->SMTPOptions = array(
-				            'ssl' => array(
-				            'verify_peer' => false,
-				            'verify_peer_name' => false,
-				            'allow_self_signed' => true
-				            )
-				        );
-				        $mail->SMTPSecure = 'ssl';
-				        $mail->Port = 465;
 
-				        $mail->setFrom('testsourcecodester@gmail.com');
-
-				        //Recipients
-				        $mail->addAddress($email);
-				        $mail->addReplyTo('testsourcecodester@gmail.com');
-
-				        //Content
-				        $mail->isHTML(true);
-				        $mail->Subject = 'ECommerce Site Sign Up';
-				        $mail->Body    = $message;
-
-				        $mail->send();
 
 				        unset($_SESSION['firstname']);
 				        unset($_SESSION['lastname']);
 				        unset($_SESSION['email']);
 
-				        $_SESSION['success'] = 'Account created. Check your email to activate.';
+				        $_SESSION['success'] = 'Account created.wait for admin activation.';
 				        header('location: signup.php');
 
 				    }
@@ -102,10 +72,7 @@
 
 
 				}
-				catch(PDOException $e){
-					$_SESSION['error'] = $e->getMessage();
-					header('location: register.php');
-				}
+
 
 				$pdo->close();
 
@@ -113,7 +80,7 @@
 
 		}
 
-	}
+
 	else{
 		$_SESSION['error'] = 'Fill up signup form first';
 		header('location: signup.php');
